@@ -18,7 +18,7 @@ const Website = () => {
     <div className={` h-svh w-full  flex flex-col items-center justify-center   ${theme === 'dark' ? 'bg-gray-900 text-white ' : 'bg-gray-100 text-black'}`}>
       <h1 className='text-4xl font-bold'>Dark Light Mode Website</h1>
       <p className='flex items-center gap-2 text-xl py-2'>
-        Hello!! My React Website v19 Fans  
+        Hello!! My Friends 
         <BsFillHandThumbsUpFill className='text-yellow-400 text-2xl ' />
       </p>
       <button className='py-5 px-2.5 rounded-2xl mt-4 cursor-pointer bg-blue-500 text-[16px] ' onClick={toggleTheme}>Switch To {theme === 'dark' ? 'Light' : 'Dark'} Mode</button>
